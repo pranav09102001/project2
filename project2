@@ -1,6 +1,11 @@
 # Python program to print positive Numbers in a List 
-
-list1 = [12,-3,12,-345,34,23];
-for num in list1: 
-      if num >= 0: 
-       print(num, end = " ")
+list1=[]
+for i in range(0,4):
+    num=int(input("e"))
+    list1.append(num)
+print(list1)
+print("all +ve no")
+for i in list1: 
+      if i >= 0: 
+       print(i, end = " ")
+    
